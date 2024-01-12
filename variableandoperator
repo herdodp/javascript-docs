@@ -1,0 +1,61 @@
+//variable and type of data
+
+//value number
+var angkanumber = 1;
+let angkanumber = 1;
+const angkanumber = 1;   //value of const cant change
+
+//value string
+var angkastring = "1";
+let angkastring = "1";
+const angkastring = "1"  //value of const cant change
+
+//value boolean
+var angkaboolean = true;
+let angkaboolean = true;
+const angkaboolean = true;  //value of const cant change
+
+//show on console page
+console.log(angkanumber);
+
+//show on browser page
+document.write(angkastring);
+
+//show the value on ID component
+document.getElementById("fill the ID").innerHTML = "fill the value";
+
+
+
+
+//operator
+// + , - , * , / , %
+
+
+let angka1 = 10;
+let angka2 = 20;
+
+let resultsum = angka1 + angka2;
+let resultmin = angka1 - angka2;
+let resultkali = angka1 * angka2;
+let resultbagi = angka1 / angka2;
+let resultsisa = angka1 % angka2;
+
+// + : penjumlahan
+console.log(angka1 + angka2);
+console.log(resultsum);
+
+// - : pengurangan
+console.log(angka1 - angka2);
+console.log(resultmin);
+
+// * : perkalian
+console.log(angka1 * angka2);
+console.log(resultkali);
+
+// / : pembagian
+console.log(angka1 / angka2);
+console.log(resultbagi);
+
+// % : sisa bagi
+console.log(angka1 % angka2);
+console.log(resultsisa);
